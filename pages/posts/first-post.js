@@ -6,6 +6,10 @@ export default function FirstPost() {
   return (
     <>
       <h1>First Post</h1>
+      {
+        //link does client side navigation
+        //faster than default navigation by browser cause its using JavaScript
+      }
       <Link href="/">
         <a>Back to home</a>
       </Link>
