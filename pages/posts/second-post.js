@@ -1,15 +1,11 @@
 import Link from "next/link";
-import Head from "next/head";
 
 //Component can have any name
 //must be exported as a default function though
 export default function FirstPost() {
   return (
     <>
-      <Head>
-        <title>First Post</title>
-      </Head>
-      <h1>First Post</h1>
+      <h1>Second Post</h1>
       {
         //link does client side navigation
         //faster than default navigation by browser cause its using JavaScript
