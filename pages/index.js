@@ -4,11 +4,11 @@ import Link from "next/link";
 export default function Home() {
   return (
     <div className="container">
+      {//Head is a react component that allows the meta data of the page to be edited }
       <Head>
         <title>Next.js Tutorial</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-
       <main>
         <h1 className="title">
           Learn <a href="https://nextjs.org">Next.js!</a>
@@ -51,7 +51,6 @@ export default function Home() {
           </a>
         </div>
       </main>
-
       <footer>
         <a
           href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
