@@ -4,7 +4,6 @@ import Link from "next/link";
 export default function Home() {
   return (
     <div className="container">
-      {//Head is a react component that allows the meta data of the page to be edited }
       <Head>
         <title>Next.js Tutorial</title>
         <link rel="icon" href="/favicon.ico" />
