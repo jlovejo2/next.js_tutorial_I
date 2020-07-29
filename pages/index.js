@@ -3,6 +3,8 @@ import Layout, { siteTitle } from "../components/layout";
 import utilStyles from "../styles/utils.module.css";
 import { getSortedPostsData } from "../lib/posts";
 
+//in dev runs every request
+//in prod on runs at build time
 export async function getStaticProps() {
   const allPostsData = getSortedPostsData();
   return {
