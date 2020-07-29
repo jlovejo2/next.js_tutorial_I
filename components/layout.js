@@ -1,6 +1,6 @@
 import Head from "next/Head";
 import styles from "./layout.module.css";
-import utilStyles from "../styles/utils.modules.css";
+import utilStyles from "../styles/utils.module.css";
 import Link from "next/Link";
 
 const name = "Your Name";
@@ -64,5 +64,3 @@ export default function Layout({ children, home }) {
     </div>
   );
 }
-
-export default Layout;
